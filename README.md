@@ -21,6 +21,8 @@ This table summarizes the sequence data quality and statistics for Patient 34 be
 ---
 *Data processed using FastQC on Galaxy Europe.*
 
+"Baseline taxonomic profiling shows a high percentage of host reads (94%) with a diverse microbial background including Ascomycota and various fungal species."
+
 ## 🛠️ Bioinformatics Pipeline
 1. **Data Acquisition:** SRA-Toolkit via Galaxy Europe.
 2. **Quality Control:** FastQC (Checked for adapters and sequence quality).
