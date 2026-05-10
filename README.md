@@ -3,12 +3,23 @@
 ## 🔬 Project Overview
 This project analyzes RNA-seq data from **Patient 34** (BioProject: PRJEB25542) to investigate how a 12-month diet of high-glucoraphanin broccoli soup affects gene expression in prostate tissue.
 
-## 📊 Dataset Metadata
-| Feature | Baseline (Before) | 12 Months (After) |
+## 📊 Dataset Comparison (Patient 34)
+
+This table summarizes the sequence data quality and statistics for Patient 34 before and after the 12-month broccoli soup intervention.
+
+| Metadata / Metric | Baseline (Before) | 12-Month Follow-up (After) |
 | :--- | :--- | :--- |
-| **Sample Accession** | ERR2399814 | ERR2399815 |
-| **Intervention** | None (Baseline) | Broccoli Soup |
-| **Tissue** | Prostate Biopsy | Prostate Biopsy |
+| **SRA Accession** | `ERR2399814` | `ERR2399815` |
+| **Sample Type** | Prostate Biopsy | Prostate Biopsy |
+| **Dietary Phase** | Pre-intervention | Post-intervention |
+| **Total Sequences** | **32,921,575** | **30,413,001** |
+| **Total Bases** | 4.1 Gbp | 3.8 Gbp |
+| **Sequence Length** | 126 bp | 126 bp |
+| **GC Content (%)** | 44% | 44% |
+| **Quality Status** | ✅ Excellent | ✅ Excellent |
+
+---
+*Data processed using FastQC on Galaxy Europe.*
 
 ## 🛠️ Bioinformatics Pipeline
 1. **Data Acquisition:** SRA-Toolkit via Galaxy Europe.
