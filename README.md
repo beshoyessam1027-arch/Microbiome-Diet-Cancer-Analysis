@@ -16,6 +16,14 @@ This project analyzes RNA-seq data from **Patient 34** (BioProject: PRJEB25542) 
 3. **Taxonomic/Transcriptomic Profiling:** Kraken2 for classification.
 4. **Visualization:** Pavian for Sankey diagrams.
 
+   ## 📊 Statistical Summary (MultiQC)
+
+The MultiQC report aggregates the classification results for both baseline and post-intervention samples. 
+
+### Observation:
+- **Host DNA Dominance:** As expected in prostate tissue samples, nearly 100% of reads remain unclassified against the standard microbial database, representing the host (Human) genome.
+- **Microbial Presence:** Minor traces of *Aspergillus fumigatus* and other species were detected, providing a baseline for the prostatic microbiome environment.
+
 ## 📈 Results (Patient 34 Comparison)
 ### Before Intervention (Baseline)
 ![Sankey Before]()
