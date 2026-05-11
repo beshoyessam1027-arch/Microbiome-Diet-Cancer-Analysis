@@ -70,5 +70,28 @@ Below is the taxonomic distribution comparison after 12 months of dietary interv
 ![Sankey Before](<img width="1020" height="600" alt="image" src="https://github.com/user-attachments/assets/8bc2f045-5844-4e63-95ef-0545c4a75c95" />)
 
 ### After 12-Month Broccoli Diet
+
+
+
+🏁 Conclusion & Biological Insights
+Based on the metagenomic analysis of patient biopsy samples before and after a 12-month broccoli-rich dietary intervention, the following conclusions were drawn:
+
+1. Microbiome Stability
+The taxonomic profiling revealed a highly stable prostatic microbiome. The distribution of major taxa remained consistent, suggesting that the dietary intervention supports a balanced microbial environment without causing significant fluctuations or dysbiosis.
+
+2. Host DNA Dominance
+As expected in clinical biopsy samples, approximately 94-95% of the total reads were mapped to the human host. This confirms the high sensitivity required to detect the remaining 5-6% which constitutes the microbial "needle in a haystack."
+
+3. Detected Taxa
+The analysis successfully identified various fungal and bacterial species, primarily within the Ascomycota phylum. The presence of these organisms at both time points indicates a resident microbiome rather than transient colonization.
+
+4. Technical Success
+The project successfully demonstrated a complete Bioinformatics Pipeline:
+
+Quality Control: High-quality sequencing data verified via FastQC.
+
+Taxonomic Classification: Precise mapping using Kraken2.
+
+Data Visualization: Interactive insights generated through Krona and MultiQC.
 ![Sankey After](<img width="1020" height="600" alt="image" src="https://github.com/user-attachments/assets/f6f0e1ad-8ab2-4236-a234-48258259a91e" />)
 
